@@ -14,7 +14,7 @@ const routes: Routes = [{
       component: HomePageComponent
     },
     {
-      path: 'Leis',
+      path: 'leis-page',
       component: LeisPageComponent
     },
     {
