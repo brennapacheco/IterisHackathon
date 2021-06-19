@@ -1,13 +1,9 @@
-h2 {
+div {
+  text-align: center;
   margin-top: 50px;
 }
 
-div {
-  background-color: #a6d6d6;
-  display: flex;
-  align-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  min-width: 80%;
+h2 {
+  margin-top: 20px;
+  text-align: center;
 }
