@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './componentes/home-page/home-page.component';
+import { LeisPageComponent } from './componentes/leis-page/leis-page.component';
 import { MenuTemplateComponent } from './menu-template/menu-template.component';
 
 const routes: Routes = [{
@@ -10,6 +11,10 @@ const routes: Routes = [{
     {
       path:'',
       component: HomePageComponent
+    },
+    {
+      path: 'Leis',
+      component: LeisPageComponent
     }
   ]
 }];
