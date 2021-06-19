@@ -1,0 +1,8 @@
+div {
+  background-color: #a6d6d6;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 360px;
+}
