@@ -1,8 +1,9 @@
-<div  *ngFor="let item of listInstituicoes">
+<div *ngFor="let item of listInstituicoes">
   <div *ngIf="item" class="instituicoesPage">
-    <h1 class="insticuicaoNome">{{item.nome}}</h1>
-    <a [href]="item.site" class="insticuicaoLink"></a>
-    <img [src]="item.site" class="instituicaoSite">
-    <p class="insticuicaoDescricao">{{item.descricao}}</p>
+    <h1 class="insticuicaoNome">{{ item.nome }}</h1>
+    <a [href]="item.site" class="insticuicaoLink"
+      ><img [src]="item.imagem"
+    /></a>
+    <p class="insticuicaoDescricao">{{ item.descricao }}</p>
   </div>
 </div>
