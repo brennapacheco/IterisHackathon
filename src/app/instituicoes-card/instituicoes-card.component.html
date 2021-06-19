@@ -1,0 +1,7 @@
+<div *ngIf="instituicao" class="instituicoesPage">
+  <h1 class="insticuicaoNome">{{ instituicao.nome }}</h1>
+  <a [href]="instituicao.site" class="insticuicaoLink"
+    ><img [src]="instituicao.imagem"
+  /></a>
+  <p class="insticuicaoDescricao">{{ instituicao.descricao }}</p>
+</div>

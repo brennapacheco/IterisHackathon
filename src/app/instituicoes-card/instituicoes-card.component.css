@@ -1,0 +1,44 @@
+.instituicoesPage{
+  margin: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #EDEDD0;
+}
+
+.insticuicaoNome{
+  font-weight: bold;
+}
+
+.instituicaoLink{
+  max-width: 100vw;
+}
+
+.insticuicaoLink img {
+  max-width: 98%;
+  border-radius: 10px;
+}
+
+@media (min-width: 720px) {
+
+  .instituicoesPage{
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #EDEDD0;
+  }
+
+  .insticuicaoLink img {
+    width: 480px;
+    border-radius: 10px;
+  }
+}
