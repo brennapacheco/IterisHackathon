@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { LeisMulherModel } from '../services/leis-mulher-model';
+import { LeisMulherModel } from '../../services/leis-mulher-model';
 
 @Component({
   selector: 'app-leis-card',
