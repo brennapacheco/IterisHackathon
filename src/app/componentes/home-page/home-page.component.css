@@ -1,15 +1,17 @@
+
+#principal{
+  text-align: center;
+  margin-top: 50px;
+  height: 50%;
+}
+h2{
+  font-weight: bold;
+}
 .botao{
   color: white;
-  background-color: red;
+  background-color: #907FA4;
   width: 150px;
   height: 150px;
   border:none;
   border-radius: 50%;
-}
-#principal{
-  text-align: center;
-  margin-top: 50px;
-}
-h2{
-  font-weight: bold;
 }
