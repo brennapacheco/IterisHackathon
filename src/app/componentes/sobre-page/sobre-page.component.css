@@ -2,12 +2,13 @@ h2 {
   margin-top: 50px;
 }
 
-div {
-  background-color: #a6d6d6;
-  display: flex;
-  align-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  min-width: 80%;
+@media (min-width: 720px) {
+  div {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 80%;
+  }
 }
