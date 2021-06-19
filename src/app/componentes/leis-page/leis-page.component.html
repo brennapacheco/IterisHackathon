@@ -2,7 +2,7 @@
   <div *ngIf="item" class="leisPage">
     <h1 class="leiNome">{{item.nome}}</h1>
     <p class="leiData">{{item.data}}</p>
-    <a [href]="item.site" class="leiLink"></a>
     <p class="leiDescricao">{{item.descricao}}</p>
+    <p>Saiba mais: <a [href]="item.site" class="leiLink">{{item.nome}}</a></p>
   </div>
 </div>
