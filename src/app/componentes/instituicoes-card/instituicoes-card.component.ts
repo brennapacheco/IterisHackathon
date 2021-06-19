@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { InstituicoesMulherModel } from '../services/instituicoes-mulher-model';
+import { InstituicoesMulherModel } from 'src/app/services/instituicoes-mulher-model';
 
 @Component({
   selector: 'app-instituicoes-card',
