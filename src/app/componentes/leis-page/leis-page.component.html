@@ -1,5 +1,5 @@
-<div class="leisPage" *ngFor="let item of listLeis">
-  <div *ngIf="item">
+<div *ngFor="let item of listLeis">
+  <div *ngIf="item" class="leisPage">
     <h1 class="leiNome">{{item.nome}}</h1>
     <p class="leiData">{{item.data}}</p>
     <a [href]="item.site" class="leiLink"></a>
